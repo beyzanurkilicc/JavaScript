@@ -24,7 +24,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       var xhr = new XMLHttpRequest();
-      xhr.open("GET", "https://github.com/beyzanurkilicc/JavaScript/blob/main/JSON/ads%C4%B1z.json", true);
+      xhr.open("GET", "https://raw.githubusercontent.com/beyzanurkilicc/JavaScript/main/JSON/ads%C4%B1z.json", true);
       xhr.onload = function() {
         if (xhr.status == 200) {
           var data = JSON.parse(xhr.responseText);
